@@ -72,7 +72,7 @@ BotFather will help us in creating the new bot.
 ![alt text](https://i.stack.imgur.com/whXiS.png)
 
 
-
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FPSaiSurya%2FPyCowinTelegram&count_bg=%2379C83D&title_bg=%23555555&icon=github.svg&icon_color=%23E7E7E7&title=Visits&edge_flat=false)](https://hits.seeyoufarm.com)
 
 <h3> Feel free to use this code in your application </h3>
 <h3> Show your ❤️ by ⭐ this Repository </h3> 
