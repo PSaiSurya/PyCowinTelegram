@@ -7,7 +7,7 @@ import fake_useragent
 
 
 DIST_ID = 00 # Your District ID
-num_days = 5
+num_days = 5 # No of days to check. 5 days is ideal within the API Query limit
 age = 25 # Your Age
 my_agent = fake_useragent.UserAgent()
 old_response_json = {}
@@ -169,7 +169,7 @@ def check_for_update(resp1, resp2):
         if diff[0] == 'change':
             new_slots = diff[2][0] - diff[2][1]
             print(new_slots)
-            if new_slots >= 3:
+            if new_slots >= 3: # Notify only if 3 or more new slots are opened 
                 incr_li.append(diff[1])
         elif diff[0] == 'add':
             incr_li.append(diff[1])
