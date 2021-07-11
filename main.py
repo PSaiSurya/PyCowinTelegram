@@ -168,7 +168,6 @@ def check_for_update(resp1, resp2):
     for diff in diff_list:
         if diff[0] == 'change':
             new_slots = diff[2][0] - diff[2][1]
-            print(new_slots)
             if new_slots >= 3: # Notify only if 3 or more new slots are opened 
                 incr_li.append(diff[1])
         elif diff[0] == 'add':
