@@ -1,16 +1,18 @@
 # PyCowinTelegram
-Queries Cowin public API, then sends the details of new slots in your district to your Telegram Channel or Group.
+Queries <b>Cowin public API</b>, then sends the details of new slots in your district to your <b>Telegram</b> Channel or Group.
 
-Made with ❤️ using Python 🐍.
+Made with ❤️ using <b>Python</b> 🐍.
 
-Get started with your District ID and Chat ID of your Telegram Channel/Group.
+Get started with your <b>District ID</b> and <b>Chat ID</b> of your Telegram Channel/Group.
 
 Requires <b> Python 3.9+ </b> 
 
 Tested working on <b> Windows 10 </b>.
 
+Works only in <b>India</b> (🇮🇳) due to <b>Geofencing</b> of the API.
 
-# Installation Procedure
+
+# Getting Started
 
 ## Creating a Virtual Environment (Optional, Can be Skipped)
 
@@ -28,7 +30,7 @@ pip install requirements.txt
 ```
 
 
-## Getting District ID from Cowin Portal
+## District ID from Cowin Portal
 Use the following code to get your district ID
 
 ````python
@@ -49,7 +51,7 @@ for states in range(1,40):
 ````
 
 
-## Getting Chat ID from Telegram
+## Chat ID from Telegram
 
 ### 1. Creating a Telegram Bot
 (Source: https://www.codementor.io/@karandeepbatra/part-1-how-to-create-a-telegram-bot-in-python-in-under-10-minutes-19yfdv4wrq)
@@ -80,11 +82,11 @@ BotFather will help us in creating the new bot.
 ## 1. What if I do not want to use Telegram and view the details of new slots in the Output Screen(Terminal/CMD/Powershell) instead?
 
 * Uncomment <b>Line 150</b> in main.py
-* Comment <b>Line 151,152 </b> in main.py
+* Comment <b>Lines 151,152 </b> in main.py
 
 <br>
 <br>
-<h3> Feel free to use this code in your application 😄 </h3>
+<h3> Feel free to use this code in your application 😃 </h3>
 <h3> Show your ❤️ by ⭐ this Repository </h3> 
 
 
