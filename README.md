@@ -3,7 +3,7 @@ Queries Cowin public API, then sends the details of new slots in your district t
 
 Made with ❤️ using Python 🐍.
 
-Get started with your [District ID](https://github.com/PSaiSurya/PyCowinTelegram#:~:text=Getting%20District%20ID%20from%20Cowin%20Portal) and [Chat ID](https://github.com/PSaiSurya/PyCowinTelegram#:~:text=Getting%20Chat%20ID%20from%20Telegram) of your Telegram Channel/Group.
+Get started with your District ID and Chat ID of your Telegram Channel/Group.
 
 Requires <b> Python 3.9+ </b> 
 
