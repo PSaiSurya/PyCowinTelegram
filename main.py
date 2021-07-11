@@ -147,6 +147,11 @@ def print_slots(resp_json, center_name, the_date):
     Data Retrieved from CO-WIN Portal on {cur_time()}
     Access Co-WIN here : https://selfregistration.cowin.gov.in
                                 """
+                        #print(result) 
+                        """
+                        If you don't want to use Telegram and See the new slot details in your output screen instead,
+                        Uncomment the line 150 and comment lines 155-156
+                        """
                         telegram_bot_send_text(result)
                         print("Message Sent to telegram channel ", cur_time())
     else:
@@ -183,9 +188,9 @@ def check_for_update(resp1, resp2):
     return incr_li
 
 if __name__ == "__main__":
+    Header = get_header()
     while True:
         dates = get_dates()
-        Header = get_header()
         get_response(dates, Header, old_response_json)
         print("Response 1 received. Waiting for Response 2", cur_time())
         print("Sleeping....")
