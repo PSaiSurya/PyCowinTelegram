@@ -3,5 +3,4 @@ fake-useragent==0.1.11
 requests==2.25.1
 telegram==0.0.1
 telegram-send==0.25
-terminado==0.10.0
 urllib3==1.26.5
