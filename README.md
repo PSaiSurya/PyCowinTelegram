@@ -53,8 +53,7 @@ for states in range(1,40):
 
 ## Chat ID from Telegram
 
-### 1. Creating a Telegram Bot
-(Source: https://www.codementor.io/@karandeepbatra/part-1-how-to-create-a-telegram-bot-in-python-in-under-10-minutes-19yfdv4wrq)
+### 1. Creating a Telegram Bot 
 
 To set up a new bot, start the conversation with BotFather (@BotFather).
 BotFather will help us in creating the new bot.
@@ -65,6 +64,7 @@ BotFather will help us in creating the new bot.
 * BotFather will send you a message with the token
 
 <b>DISCLAIMER</b> — Keep access token of the bot securely. Anyone with your token can manipulate this bot.
+
  
 ### 2. Telegram Bot and Chat ID
 * Create a new Telegram Channel or group (It can be Public/Private)
