@@ -1,13 +1,13 @@
 # PyCowinTelegram
-Queries Cowin public API and notifies in your Telegram Channel or Group, if new slots open in your district.
+Queries Cowin public API, then sends the details of new slots in your district to your Telegram Channel or Group.
 
-Made with Python.
+Made with ❤️ using Python 🐍.
 
-Get started with your District ID from Cowin Portal and Chat ID of your Telegram Channel/Group.
+Get started with your [District ID](https://github.com/PSaiSurya/PyCowinTelegram#:~:text=Getting%20District%20ID%20from%20Cowin%20Portal) and [Chat ID](https://github.com/PSaiSurya/PyCowinTelegram#:~:text=Getting%20Chat%20ID%20from%20Telegram) of your Telegram Channel/Group.
 
 Requires <b> Python 3.9+ </b> 
 
-Tested working on <b> Windows 10 </b>
+Tested working on <b> Windows 10 </b>.
 
 
 # Installation Procedure
@@ -34,17 +34,17 @@ Use the following code to get your district ID
 ````python
 import requests
 import json
-from fake-useragent import UserAgent
+from fake_useragent import UserAgent
 
 Agent = UserAgent()
-header = {"User-Agent":Agent.random}
+browser_header = {"User-Agent":Agent.random}
 for states in range(1,40):
   print("State Code: ",states)
   response = requests.get(f"https://cdn-api.co-vin.in/api/v2/admin/location/districts/{states}", headers=browser_header)
   json_data = json.loads(response.text)
-    for state in json_data["districts"]:
-        print(state["district_id"],'\t', state["district_name"])
-    print("\n")
+  for state in json_data["districts"]:
+    print(state["district_id"],'\t', state["district_name"])
+  print("\n")
 
 ````
 
