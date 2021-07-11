@@ -147,13 +147,9 @@ def print_slots(resp_json, center_name, the_date):
     Data Retrieved from CO-WIN Portal on {cur_time()}
     Access Co-WIN here : https://selfregistration.cowin.gov.in
                                 """
-                        #print(result) 
-                        """
-                        If you don't want to use Telegram and See the new slot details in your output screen instead,
-                        Uncomment the line 150 and comment lines 155-156
-                        """
-                        telegram_bot_send_text(result)
-                        print("Message Sent to telegram channel ", cur_time())
+                        #print(result) # For more details, Head to FAQ-1 of Readme.md
+                        telegram_bot_send_text(result) #FAQ-1
+                        print("Message Sent to telegram channel ", cur_time()) #FAQ-1
     else:
         print(f"No available slots on {the_date}")
 
