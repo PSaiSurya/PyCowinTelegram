@@ -6,7 +6,7 @@ import urllib3
 import fake_useragent
 
 
-DIST_ID = 571 # Your District ID
+DIST_ID = 00 # Your District ID
 num_days = 5
 age = 25 # Your Age
 my_agent = fake_useragent.UserAgent()
