@@ -1,14 +1,18 @@
 # PyCowinTelegram
-Queries Cowin public API and notifies in your Telegram Channel or Group, if new slots open
+Queries Cowin public API and notifies in your Telegram Channel or Group, if new slots open in your district.
 
-Made with Python
+Made with Python.
 
-Get started with your District ID from Cowin Portal and Chat ID of your Telegram Channel/Group
+Get started with your District ID from Cowin Portal and Chat ID of your Telegram Channel/Group.
 
-Tested Working on <b> Python 3.9+ (Windows 10) </b>
+Requires <b> Python 3.9+ </b> 
+
+Tested working on <b> Windows 10 </b>
 
 
-# Creating a Virtual Environment (Optional, Can be Skipped)
+# Installation Procedure
+
+## Creating a Virtual Environment (Optional, Can be Skipped)
 
 * Install [Anaconda](https://www.anaconda.com/products/individual)
 * Use Anaconda to create a virtual environment and Activate it
@@ -17,15 +21,14 @@ Tested Working on <b> Python 3.9+ (Windows 10) </b>
 
 
 
-# Installing Requirements  
+## Installing Requirements  
 
 ```python
 pip install requirements.txt
 ```
 
 
-
-# Getting District ID from Cowin Portal
+## Getting District ID from Cowin Portal
 Use the following code to get your district ID
 
 ````python
@@ -46,9 +49,9 @@ for states in range(1,40):
 ````
 
 
-# Getting Chat ID from Telegram
+## Getting Chat ID from Telegram
 
-## 1. Creating a Telegram Bot
+### 1. Creating a Telegram Bot
 (Source: https://www.codementor.io/@karandeepbatra/part-1-how-to-create-a-telegram-bot-in-python-in-under-10-minutes-19yfdv4wrq)
 
 To set up a new bot, start the conversation with BotFather (@BotFather).
@@ -61,18 +64,28 @@ BotFather will help us in creating the new bot.
 
 <b>DISCLAIMER</b> — Keep access token of the bot securely. Anyone with your token can manipulate this bot.
  
-## 2. Telegram Bot and Chat ID
+### 2. Telegram Bot and Chat ID
 * Create a new Telegram Channel or group (It can be Public/Private)
 * Add your bot to the Channel/Group 
 * Send a sample message to your Channel
 * Forward the same to [@JsonDumpBot](https://t.me/JsonDumpBot)
 * Get the ID
 
-<b>DISCLAIMER</b> — Im not an affiliate and [@JsonDumpBot](https://t.me/JsonDumpBot) is not my bot.
+<b>DISCLAIMER</b> — I'm not an affiliate and [@JsonDumpBot](https://t.me/JsonDumpBot) is not my bot.
 ![alt text](https://i.stack.imgur.com/whXiS.png)
 
 
-[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FPSaiSurya%2FPyCowinTelegram&count_bg=%2379C83D&title_bg=%23555555&icon=github.svg&icon_color=%23E7E7E7&title=Visits&edge_flat=false)](https://hits.seeyoufarm.com)
 
-<h3> Feel free to use this code in your application </h3>
+# FAQ
+## 1. What if I do not want to use Telegram and view the details of new slots in the Output Screen(Terminal/CMD/Powershell) instead?
+
+* Uncomment <b>Line 150</b> in main.py
+* Comment <b>Line 151,152 </b> in main.py
+
+<br>
+<br>
+<h3> Feel free to use this code in your application 😄 </h3>
 <h3> Show your ❤️ by ⭐ this Repository </h3> 
+
+
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FPSaiSurya%2FPyCowinTelegram&count_bg=%2379C83D&title_bg=%23555555&icon=github.svg&icon_color=%23E7E7E7&title=Visits&edge_flat=false)](https://hits.seeyoufarm.com)
