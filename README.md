@@ -19,7 +19,7 @@ Works only in <b>India</b> (🇮🇳) due to <b>Geofencing</b> of the API.
 * Install [Anaconda](https://www.anaconda.com/products/individual)
 * Use Anaconda to create a virtual environment and Activate it
 
-<b>For Step by Step Instructions, </b> https://medium.com/swlh/setting-up-a-conda-environment-in-less-than-5-minutes-e64d8fc338e4#:~:text=Scenario%203%3A%20You,conda%20activate%20%3Cenvironment_name%3E.
+   For detailed steps, see [here](https://medium.com/swlh/setting-up-a-conda-environment-in-less-than-5-minutes-e64d8fc338e4#:~:text=Scenario%203%3A%20You,conda%20activate%20%3Cenvironment_name%3E)
 
 
 
