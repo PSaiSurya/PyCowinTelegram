@@ -6,9 +6,9 @@ import urllib3
 import fake_useragent
 
 
-DIST_ID = 00 # Your District ID
+DIST_ID = 00 # Your District ID!!!!!!
 num_days = 5 # No of days to check. 5 days is ideal within the API Query limit
-age = 25 # Your Age
+age = 25 # Your Age!!!!!
 my_agent = fake_useragent.UserAgent()
 old_response_json = {}
 new_response_json = {}
