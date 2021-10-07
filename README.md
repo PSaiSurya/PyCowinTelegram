@@ -79,7 +79,7 @@ BotFather will help us in creating the new bot.
 
 
 # FAQ
-## 1. I do not want to use Telegram and view the details of new slots in the Output Screen(Terminal/CMD/Powershell) instead?
+## 1. I do not want to use Telegram and view the details of new slots in the Output Screen(Terminal/CMD/Powershell) instead. What to do?
 
 * Uncomment <b>Line 150</b> in main.py
 * Comment <b>Lines 151,152 </b> in main.py
